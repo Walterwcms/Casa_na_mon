@@ -1,0 +1,139 @@
+body{
+	margin:0px;
+}
+h2{
+	color:black;
+	text-align:center;
+	font-size:20pt;
+}
+
+div#campo{
+	display:block;
+	position:absolute;
+	width:80%;
+	height:90%;
+	top:5%;
+	left:10%;
+	border:solid 1px black;
+}
+
+div#BarraCima{
+	display:block;
+	position:absolute;
+	background-color:#3c8dbc;
+	width:100%;
+	height:10%;
+}
+
+div#BarraEsquerdo{
+	display:block;
+	position:absolute;
+	top:10%;
+	left:0%;
+	border-top:3px solid #1d1f1f;
+	
+	background-color:#2E2E2E;
+	width:15%;
+	height:90%;
+}
+
+
+
+
+/*-------------------formatacao de imagens----------------------------*/
+img#logo{
+	position:relative;
+	left:30px;
+	height:55px;
+	width:93px;
+	cursor:pointer;
+}
+
+
+
+
+
+/*-------------------formacão lista-------------------*/
+
+
+
+input[type=radio]{
+	display:none;
+}
+label{
+	position:absolute;
+	left:-1px;
+	margin-top:35px;
+	height:25px;
+	width:163px;
+	background-color:#2E2E29;
+	border-bottom:1px solid;
+	border-bottom-color:#717171;
+	cursor: pointer;
+	color:white;
+	font-size:15pt;
+	text-align:center;
+}
+
+input:checked + label{
+  background-color:;
+  color:#02cbd9;
+}
+label:hover{
+	color:#BDBDBD;
+}
+
+
+
+
+
+
+
+
+/*-------------------------formatacão das abas---------------*/
+div#aluguerEI,div#aluguerAA,div#aluguerRA,div#vendaEI,div#vendaAV,div#vendaRA,div#vendaRV,div#Rvenda,div#CR{
+	
+	z-index:0;
+	position:absolute;
+	height:470px;
+	width:500px;
+	top:20%;
+	left:350px;
+	background-color:white;
+	color:black;
+}
+div#CR{
+	height:460px;
+	width:480px;
+	border:1px solid;
+	border-color:black;
+}
+
+input#v1:checked ~ div#aluguerEI,input#v2:checked ~ div#aluguerAA,input#v3:checked ~ div#aluguerRA,input#v4:checked ~ div#vendaEI,input#v5:checked ~ div#vendaAV,input#v6:checked  ~ div#vendaRV,input#v7:checked ~ div#CR{
+	z-index:1;
+}
+
+
+/*********************formatacao do formulario***************************/
+/*formatacoes gerais*/
+div.paragrafInput,input.buttonInput,div.RemoveEdit,input.buttonRemoveEdit{
+	display:block;
+	position:absolute;
+
+}
+
+/*Adicionar_Aluguer*/
+div.paragrafInput,div.RemoveEdit {
+	text-align:right;
+	left:6%;
+	font-size:16pt;
+}
+input.buttonInput{
+	top:80%;
+	left:50%;
+}
+input.buttonRemoveEdit{
+	top:40%;
+	left:50%;
+}
+

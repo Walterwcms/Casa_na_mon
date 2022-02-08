@@ -1,0 +1,181 @@
+@font-face {
+  font-family: roboto-simp;
+  src: url("../font/1584537932758-Roboto-Regular.ttf");
+}
+
+body{
+  font-family: roboto-simp;
+  padding: 0;
+  background-color: #f2f2f2;
+  text-align: justify;
+ }
+
+ .politics{ 
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: auto;
+ }
+
+ .politics p{
+   font-size: 18px;
+ }
+
+.esq li a{
+  text-decoration: none;
+  color: black;
+}
+
+li{
+  font-size: 18px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+h1{
+  color:#004e98;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.conteiner {
+  display: grid;
+  background-image: url("../img/rect10.png");
+  padding-left: 10%;
+}
+
+.item-1 {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.item-2 {
+  grid-column: 1 / span 1;
+  grid-row: 2;
+}
+
+.item-3 {
+  grid-column: 2 / span 1;
+  grid-row: 2;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.navbar {
+  display: grid;
+
+}
+
+.menu {
+  grid-column: 2; 
+  grid-row: 1 / span 1;
+  margin-left: 5%;
+  margin-top: 2%;
+  font-size: 20px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: #fbfef9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.75s;
+  translate: 1s;
+}
+
+.txtbusca {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #fbfef9;
+  background: transparent;
+  color:#fbfef9;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+::-webkit-input-placeholder {
+  color: #fbfef9;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.txtbusca:hover{
+  background-color: #de9e36;
+  color:#fbfef9;
+  transition: 0.5s;
+}
+
+.busca{
+  height: 40px;
+  width: 50px;
+  border-radius: 5px;
+  color:black;
+  background-color: #fbfef9;
+  border: 1px solid #fbfef9;
+  transition: 0.5s;
+}
+
+.busca:hover{
+  background-color: transparent;
+  color: #fbfef9;
+  transition: 0.5s;
+}
+
+.menu a:hover{
+  color:#fbfef9;
+  background-color: #de9e36;
+  border-radius: 10px;
+}
+
+.logo {
+  grid-column: 1; 
+  grid-row: 1 / span 1;
+  margin-top: 2%;
+}
+
+.text{
+  color:#fbfef9;
+  margin-top: 15%;
+  margin-bottom: 25%;
+ 
+}
+
+.text p{
+  margin: 0;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.text span {
+  margin-top: -20px;
+  font-size: 25px;
+}
+
+footer{
+  background-color: #004e98;
+  margin-top: 5%;
+}
+
+footer .logo{
+  margin-left: 20%;
+}

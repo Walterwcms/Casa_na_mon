@@ -1,0 +1,38 @@
+@font-face {
+    font-family: roboto;
+    src: url("../font/1584537932707-Roboto-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: roboto-simp;
+    src: url("../font/1584537932758-Roboto-Regular.ttf");
+  }
+
+  :root {
+    --azul: #004e98;
+    --laranja: #de9e36;
+    --preto: #000704;
+    --azul-c:  #3da5d9;
+    --branco:  #fbfef9;
+    --cincento: #f2f2f2;
+  }
+
+  body{
+    font-family: roboto-simp;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cincento);
+   }
+   
+   h1{
+     color: var(--azul);
+     font-size: 40px;
+     margin-bottom: 0;
+   }
+
+   ::-webkit-input-placeholder {
+    color: var(--branco);
+    font-size: 15px;
+    font-weight: 600;
+  }
+  

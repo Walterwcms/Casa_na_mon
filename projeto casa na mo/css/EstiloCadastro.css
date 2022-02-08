@@ -1,0 +1,76 @@
+#caixa{
+	height: 300px;
+	width: 500px;
+}
+
+/**********Formatcao dos paragrafos***********/
+div#texto{
+	display:block;
+	position:absolute;
+	top:18%;
+	left:8%;
+	text-align:right;
+}
+
+
+/******************Formatacao dos inputs texto*********/
+div#entradaTexto{
+	display:block;
+	position:absolute;
+	top:19%;
+	left:20%;
+}
+input[type="test"],input#senha{
+	margin:2px;
+	height:25px;
+	width:250px;
+	border-style:solid;
+	border-width:2px;
+	font-size:10pt;
+	text-align:center-left;
+}
+input[type="test"]:hover,input#senha:hover{
+	border-color:#b3b3cc;
+}
+
+/************FDormatacao da imagen de cadastro*****/
+img#iconC{
+	display:block;
+	position:absolute;
+	width:20%;
+	height:30%;
+	left:75%;
+}
+
+/***********Formatacao de butão*************/
+input#butao{
+	position:absolute;
+	left:40%;
+	top:80%;
+	height:30px;
+	width:100px;
+	border-radius:10px;
+	cursor:pointer;
+	font-size:10pt;
+}
+
+input#butao:hover{
+	border-width:3px;
+	color:#0B173B;
+}
+
+
+
+
+
+
+
+
+/************Formatacao da imagen ver password*********/
+img#ver{
+	position:absolute;
+	cursor:pointer;
+	left:72%;
+	top:70%;	
+}
+

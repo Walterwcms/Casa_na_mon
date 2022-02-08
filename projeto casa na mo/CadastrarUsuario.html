@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="css/EstiloGrupo.css"/>
+		<link rel="stylesheet" type="text/css" href="css/EstiloCadastro.css"/>
+		<title>Cadastrar</title>
+		
+		<!--codigo para ver/ocultar password-->
+		<script>
+			function mostrarSenha(){
+				var senha = document.getElementById("senha");
+				if(senha.type == "password"){
+					senha.type="text";
+					document.getElementById("ver").src="imagens/verT.png";
+				}
+				else{
+					senha.type="password";
+					document.getElementById("ver").src="imagens/ver.png";
+				}
+			}
+			
+		</script>
+		<!---------------------------->
+		
+	</head>
+	
+		<body>
+		
+		<div id="fundo">
+			<!--<img id="fund" src="imagens/fundo.jpg-->
+		</div>
+		
+		<div id="caixa">
+			<h1>Cadastrar de Usuário</h1>
+			<form id="formulario">
+				<img id="iconC" src="imagens/cadastro.png"/>
+				<div id="texto">
+					<p type="test">Nome:</p>
+					<p id="Pmorada">Morada:</p>
+					<p id="Pemail">Email:</p>
+					<p id="Ptelefone">Telefone:</p>
+					<p>Senha:</p>
+				</div>
+				
+				<div id="entradaTexto">
+					<input type="test" id="nome" placeholder="Seu nome completo" required="required" />
+					<input type="test" id="morada" />
+					<input type="test" id="email" placeholder="TeuEmail@dominio" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Digita um formato de email valido"/>
+					<input type="test" id="telefone" maxlength="7" placeholder="Só números de cabo verde " required="required" pattern="[0-9]{6,}$" title="Digita um número de telefone que tenha 7 número" />
+					<input type="password" id="senha" placeholder="mais de 7 caracteres" required="required" pattern=".{8,}" title="+7 caracteres"/>
+					
+				</div>
+				<img id="ver" src="imagens/ver.png" onclick="mostrarSenha()"/>
+				<input type="submit" id="butao" value="Cadastrar")"/>
+				
+			</form>
+		</div>
+	<a href="PaginaHome.html"><button id="butao1">Ir para pagina Home</button></a>
+	</body>
+</html>
